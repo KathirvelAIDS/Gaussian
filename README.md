@@ -23,7 +23,8 @@ Program to find the solution of a matrix using Gaussian Elimination.
 Developed by: V.NAVYA
 RegisterNumber:21004872
 */
-```import numpy as np
+```
+import numpy as np
 import sys
 n = int(input())
 a = np.zeros((n,n+1))
