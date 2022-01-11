@@ -24,6 +24,7 @@ Developed by: V.NAVYA
 RegisterNumber:21004872
 */
 ```
+```
 import numpy as np
 import sys
 n = int(input())
@@ -47,7 +48,7 @@ for i in range(n-2,-1,-1):
     X[i] = X[i]/a[i][i]
 for i in range(n):
     print('X%d = %0.2f' %(i,X[i]), end = ' ')
-        
+ ```       
 
 ## Output:
 ![GITHUB LOGO](gussian.png)
